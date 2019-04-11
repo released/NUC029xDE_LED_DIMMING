@@ -1,0 +1,310 @@
+Dependencies for Project 'Template', Target 'Template': (DO NOT MODIFY !)
+F (..\..\..\Library\Device\Nuvoton\NUC029xDE\Source\ARM\startup_NUC029xDE.s)(0x5C872671)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 526"--list .\lst\startup_nuc029xde.lst --xref -o .\obj\startup_nuc029xde.o --depend .\obj\startup_nuc029xde.d)
+F (..\..\..\Library\Device\Nuvoton\NUC029xDE\Source\system_NUC029xDE.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\system_nuc029xde.o --list_dir ".\\lst\\" --list --omf_browse .\obj\system_nuc029xde.crf --depend .\obj\system_nuc029xde.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\retarget.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\retarget.o --list_dir ".\\lst\\" --list --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\uart.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\uart.o --list_dir ".\\lst\\" --list --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\sys.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\sys.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\clk.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\clk.o --list_dir ".\\lst\\" --list --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\adc.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\adc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\fmc.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\fmc.o --list_dir ".\\lst\\" --list --omf_browse .\obj\fmc.crf --depend .\obj\fmc.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\gpio.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\gpio.o --list_dir ".\\lst\\" --list --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\i2c.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\i2c.o --list_dir ".\\lst\\" --list --omf_browse .\obj\i2c.crf --depend .\obj\i2c.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\pwm.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\pwm.o --list_dir ".\\lst\\" --list --omf_browse .\obj\pwm.crf --depend .\obj\pwm.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\spi.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\spi.o --list_dir ".\\lst\\" --list --omf_browse .\obj\spi.crf --depend .\obj\spi.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\timer.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\timer.o --list_dir ".\\lst\\" --list --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\wdt.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wdt.crf --depend .\obj\wdt.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\..\..\Library\StdDriver\src\wwdt.c)(0x5C872671)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\wwdt.o --list_dir ".\\lst\\" --list --omf_browse .\obj\wwdt.crf --depend .\obj\wwdt.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\main.c)(0x5CAF07DB)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\main.o --list_dir ".\\lst\\" --list --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x599EDB3C)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
+F (..\sysclock.c)(0x5CAECB57)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections --asm --interleave --asm_dir ".\\lst\\" -I ..\..\..\Library\CMSIS\Include -I ..\..\..\Library\Device\Nuvoton\NUC029xDE\Include -I ..\..\..\Library\StdDriver\inc-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="526"-o .\obj\sysclock.o --list_dir ".\\lst\\" --list --omf_browse .\obj\sysclock.crf --depend .\obj\sysclock.d)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cm0.h)(0x5C872671)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599EDB3E)
+I (..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x5C872671)
+I (..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x5C872671)
+I (..\..\..\Library\Device\Nuvoton\NUC029xDE\Include\system_NUC029xDE.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SYS.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\ADC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\FMC.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\GPIO.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\I2C.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\PWM.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\SPI.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\TIMER.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\WWDT.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\UART.h)(0x5C872671)
+I (..\..\..\Library\StdDriver\inc\CLK.h)(0x5C872671)
