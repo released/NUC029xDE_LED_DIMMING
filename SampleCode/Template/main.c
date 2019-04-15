@@ -58,7 +58,7 @@ void TMR3_IRQHandler(void)
 //				printf("DUTY : %4d\r\n" ,DUTY_LED );
 				if (FLAG_LED)
 				{
-					if ( DUTY_LED++ == 100)
+					if ( ++DUTY_LED == 100)
 					{
 						FLAG_LED = 0;
 						DUTY_LED = 100;
@@ -66,7 +66,7 @@ void TMR3_IRQHandler(void)
 				}
 				else
 				{
-					if ( DUTY_LED-- == 0)
+					if ( --DUTY_LED == 0)
 					{
 						FLAG_LED = 1;
 						DUTY_LED = 0;

@@ -240,12 +240,12 @@
 ;;;43     
 ;;;44     void TMR3_IRQHandler(void)
 000000  b570              PUSH     {r4-r6,lr}
-000002  481c              LDR      r0,|L5.116|
+000002  481e              LDR      r0,|L5.124|
 000004  6881              LDR      r1,[r0,#8]
 000006  07c9              LSLS     r1,r1,#31
 000008  0fc9              LSRS     r1,r1,#31
 ;;;45     {
-00000a  d032              BEQ      |L5.114|
+00000a  d035              BEQ      |L5.120|
 00000c  2601              MOVS     r6,#1
 00000e  6086              STR      r6,[r0,#8]
 ;;;46     	static uint32_t LOG = 0;
@@ -256,34 +256,34 @@
 ;;;51             TIMER_ClearIntFlag(TIMER3);
 ;;;52     
 ;;;53     		if (PB3 ==1)
-000010  4819              LDR      r0,|L5.120|
+000010  481b              LDR      r0,|L5.128|
 000012  68c0              LDR      r0,[r0,#0xc]
 000014  2500              MOVS     r5,#0
 ;;;54     		{
 ;;;55     			if (CNT_LED++ >= 18)
-000016  4c19              LDR      r4,|L5.124|
+000016  4c1b              LDR      r4,|L5.132|
 000018  2801              CMP      r0,#1                 ;53
-00001a  d11b              BNE      |L5.84|
+00001a  d11e              BNE      |L5.90|
 00001c  78a0              LDRB     r0,[r4,#2]  ; CNT_LED
 00001e  1c41              ADDS     r1,r0,#1
 000020  70a1              STRB     r1,[r4,#2]
 000022  2812              CMP      r0,#0x12
-000024  d316              BCC      |L5.84|
+000024  d319              BCC      |L5.90|
 ;;;56     			{		
 ;;;57     				CNT_LED = 0;
 000026  70a5              STRB     r5,[r4,#2]
 ;;;58     				PWM_ConfigOutputChannel(PWM0, 0, 20000, DUTY_LED);
 000028  7823              LDRB     r3,[r4,#0]  ; DUTY_LED
-00002a  4a15              LDR      r2,|L5.128|
+00002a  4a17              LDR      r2,|L5.136|
 00002c  2100              MOVS     r1,#0
-00002e  4815              LDR      r0,|L5.132|
+00002e  4817              LDR      r0,|L5.140|
 000030  f7fffffe          BL       PWM_ConfigOutputChannel
 ;;;59     //				printf("DUTY : %4d\r\n" ,DUTY_LED );
 ;;;60     				if (FLAG_LED)
 000034  7860              LDRB     r0,[r4,#1]  ; FLAG_LED
 000036  2800              CMP      r0,#0
 ;;;61     				{
-;;;62     					if ( DUTY_LED++ == 100)
+;;;62     					if ( ++DUTY_LED == 100)
 ;;;63     					{
 ;;;64     						FLAG_LED = 0;
 ;;;65     						DUTY_LED = 100;
@@ -291,74 +291,78 @@
 ;;;67     				}
 ;;;68     				else
 ;;;69     				{
-;;;70     					if ( DUTY_LED-- == 0)
+;;;70     					if ( --DUTY_LED == 0)
 000038  7820              LDRB     r0,[r4,#0]  ; DUTY_LED
-00003a  d006              BEQ      |L5.74|
-00003c  1c41              ADDS     r1,r0,#1              ;62
-00003e  7021              STRB     r1,[r4,#0]            ;62
-000040  2864              CMP      r0,#0x64              ;62
-000042  d107              BNE      |L5.84|
-000044  7065              STRB     r5,[r4,#1]            ;64
-000046  7020              STRB     r0,[r4,#0]            ;65
-000048  e004              B        |L5.84|
-                  |L5.74|
-00004a  1e41              SUBS     r1,r0,#1
-00004c  7021              STRB     r1,[r4,#0]
-00004e  d201              BCS      |L5.84|
+00003a  d007              BEQ      |L5.76|
+00003c  1c40              ADDS     r0,r0,#1              ;60
+00003e  b2c0              UXTB     r0,r0                 ;62
+000040  7020              STRB     r0,[r4,#0]            ;62
+000042  2864              CMP      r0,#0x64              ;62
+000044  d109              BNE      |L5.90|
+000046  7065              STRB     r5,[r4,#1]            ;64
+000048  7020              STRB     r0,[r4,#0]            ;65
+00004a  e006              B        |L5.90|
+                  |L5.76|
+00004c  1e40              SUBS     r0,r0,#1              ;65
+00004e  0600              LSLS     r0,r0,#24
+000050  0e00              LSRS     r0,r0,#24
+000052  7020              STRB     r0,[r4,#0]
+000054  d101              BNE      |L5.90|
 ;;;71     					{
 ;;;72     						FLAG_LED = 1;
-000050  7066              STRB     r6,[r4,#1]
+000056  7066              STRB     r6,[r4,#1]
 ;;;73     						DUTY_LED = 0;
-000052  7025              STRB     r5,[r4,#0]
-                  |L5.84|
+000058  7025              STRB     r5,[r4,#0]
+                  |L5.90|
 ;;;74     					}			
 ;;;75     				}
 ;;;76     			}
 ;;;77     		}
 ;;;78     
 ;;;79     		if (CNT++ >= 1000)
-000054  88a0              LDRH     r0,[r4,#4]  ; CNT
-000056  1c41              ADDS     r1,r0,#1
-000058  80a1              STRH     r1,[r4,#4]
-00005a  217d              MOVS     r1,#0x7d
-00005c  00c9              LSLS     r1,r1,#3
-00005e  4288              CMP      r0,r1
-000060  d307              BCC      |L5.114|
+00005a  88a0              LDRH     r0,[r4,#4]  ; CNT
+00005c  1c41              ADDS     r1,r0,#1
+00005e  80a1              STRH     r1,[r4,#4]
+000060  217d              MOVS     r1,#0x7d
+000062  00c9              LSLS     r1,r1,#3
+000064  4288              CMP      r0,r1
+000066  d307              BCC      |L5.120|
 ;;;80     		{		
 ;;;81     			CNT = 0;
-000062  80a5              STRH     r5,[r4,#4]
+000068  80a5              STRH     r5,[r4,#4]
 ;;;82             	printf("%s : %4d\r\n",__FUNCTION__,LOG++);
-000064  68a2              LDR      r2,[r4,#8]  ; LOG
-000066  4908              LDR      r1,|L5.136|
-000068  1c50              ADDS     r0,r2,#1
-00006a  60a0              STR      r0,[r4,#8]  ; LOG
-00006c  a007              ADR      r0,|L5.140|
-00006e  f7fffffe          BL       __2printf
-                  |L5.114|
+00006a  68a2              LDR      r2,[r4,#8]  ; LOG
+00006c  4908              LDR      r1,|L5.144|
+00006e  1c50              ADDS     r0,r2,#1
+000070  60a0              STR      r0,[r4,#8]  ; LOG
+000072  a008              ADR      r0,|L5.148|
+000074  f7fffffe          BL       __2printf
+                  |L5.120|
 ;;;83     		}
 ;;;84         }
 ;;;85     }
-000072  bd70              POP      {r4-r6,pc}
+000078  bd70              POP      {r4-r6,pc}
 ;;;86     
                           ENDP
 
-                  |L5.116|
-                          DCD      0x40110020
-                  |L5.120|
-                          DCD      0x50004240
+00007a  0000              DCW      0x0000
                   |L5.124|
-                          DCD      ||.data||
+                          DCD      0x40110020
                   |L5.128|
-                          DCD      0x00004e20
+                          DCD      0x50004240
                   |L5.132|
-                          DCD      0x40040000
+                          DCD      ||.data||
                   |L5.136|
-                          DCD      ||.constdata||
+                          DCD      0x00004e20
                   |L5.140|
-00008c  2573203a          DCB      "%s : %4d\r\n",0
-000090  20253464
-000094  0d0a00  
-000097  00                DCB      0
+                          DCD      0x40040000
+                  |L5.144|
+                          DCD      ||.constdata||
+                  |L5.148|
+000094  2573203a          DCB      "%s : %4d\r\n",0
+000098  20253464
+00009c  0d0a00  
+00009f  00                DCB      0
 
                           AREA ||i.UART0_Init||, CODE, READONLY, ALIGN=2
 
